@@ -1,0 +1,22 @@
+# Files
+**/*.egg-info
+**/*.log
+
+# Directories
+.idea/*
+**/logs
+**/output
+**/__pycache__
+**/results/**
+**/images/**
+
+
+# venv
+**/.env-dbx/*
+**/.env-py/*
+
+# Builds
+**/build
+**/dist
+
+

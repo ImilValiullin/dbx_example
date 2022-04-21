@@ -1,0 +1,17 @@
+{
+  "default": {
+    "strict_path_adjustment_policy": true,
+    "jobs": [
+      {
+        "name": "job_dbx_example",
+        "existing_cluster_id": "0124-140608-12f979xt",
+        "spark_python_task": {
+          "python_file": "file://main.py",
+          "parameters": [
+            "file:fuse://src/config/main_config.yml"
+          ]
+        }
+      }
+    ]
+  }
+}
